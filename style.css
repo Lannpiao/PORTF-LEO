@@ -55,7 +55,25 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 80px;
+}
+.dev{
+    margin-right: 50px;
 }
 .img_back{
     width: 500px;
+    margin-left: 150px;
+}
+.name{
+    font-size: 28px;
+    color: white;
+}
+.developer{
+    font-size: 80px;
+    color: white;
+}
+.developer1{
+    font-size: 80px;
+    color: white;
+    margin-top: -30px;
 }
