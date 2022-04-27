@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Roboto:wght@300;500&display=swap');
 
 *{
     margin: 0;
@@ -7,7 +7,9 @@
 }
 body{
     
-    background-image: linear-gradient( to right, #1B1C20 50%, #232427 50%);
+    background-color: #1B1C20;
+    padding-left: 50px;
+    padding-right: 50px;
 
 }
 header{
@@ -48,9 +50,16 @@ header{
     
     
 }
-.logo {
+.logo_new{
+    font-family: 'Lacquer', cursive;
+    font-size: 64pt;
+    background-image: linear-gradient( to right, #E30057, #8826D1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
     margin-right: 300px;
 }
+
 .body_intro{
     display: flex;
     align-items: center;
@@ -61,7 +70,8 @@ header{
     margin-right: 50px;
 }
 .img_back{
-    width: 500px;
+    width: 450px;
+    
     margin-left: 150px;
 }
 .name{
