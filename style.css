@@ -327,4 +327,51 @@ header{
         font-size: 28px;
      
     }
+    
+}
+
+@media (max-width: 400px){
+    .body_intro{
+        display: block;
+    }
+    .img{
+        display: flex;
+        justify-content: end;
+    }
+
+    .img_back{
+        width: 180px;  
+        margin-top: 50px;
+    }
+    .name{
+        font-size: 17px;
+        color: white;
+    }
+    .developer{
+        font-size: 40px;
+        color: white;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+    .developer1{
+        font-size: 40px;
+        color: white;
+        margin-top: -15px;
+        font-weight: bold;
+    }
+    .speak{
+        width: 150px;
+        margin-top: 20px;
+        height: 25px;
+        background-image: linear-gradient( to right, #E30057, #8826D1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 40px;
+    }
+    .about{
+        font-size: 18px;
+        font-weight: bold;
+        color: #1B1C20;
+    }
 }
