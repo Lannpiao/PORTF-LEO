@@ -7,6 +7,7 @@
 }
 #btn_menu{
     display: none;
+    border: none;
 }
 body{
     
@@ -38,7 +39,9 @@ header{
     margin-left: 300px;
     
 }
-
+#menu{
+    display: flex;
+}
 #nav{
     display: flex;
     list-style: none;
@@ -344,10 +347,8 @@ header{
         cursor: pointer;
     }
     #hambur{
-        
-        display: block;
+        color: white;
         width: 30px;
-        color: #fff;
         border-top: 2px solid;
     }
     #hambur::after, #hambur::before{
@@ -357,6 +358,22 @@ header{
         height: 2px;
         background: currentColor;
         margin-top: 5px;
+        transition: .4s;
+        position: relative;
+    }
+    #menu.active #hambur{
+        border-top-color: transparent;
+       
+        
+    }
+    #menu.active #hambur::before{
+        transform: rotate(135deg);
+        background-image: linear-gradient( to right, #8826D1, #E30057);
+    }
+    #menu.active #hambur::after{
+        top: -7px;
+        transform: rotate(-135deg);
+        background-image: linear-gradient( to right, #8826D1, #E30057);
     }
 }
 
