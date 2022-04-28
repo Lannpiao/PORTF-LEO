@@ -70,8 +70,7 @@ header{
     margin-right: 50px;
 }
 .img_back{
-    width: 380px;
-    
+    width: 380px;  
     margin-left: 150px;
 }
 .name{
@@ -104,4 +103,69 @@ header{
     font-size: 28px;
     font-weight: bold;
     color: #1B1C20;
+}
+
+@media (max-width: 1030px){
+    .icon_hub{
+
+        margin-left: 200px;
+        
+    }
+    .nav, li a{
+        text-decoration: none;
+        gap: 30px;
+        color: white;
+        font-size: 13px;
+        
+        
+    }
+    .logo_new{
+        font-family: 'Lacquer', cursive;
+        font-size: 64pt;
+        background-image: linear-gradient( to right, #E30057, #8826D1);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        margin-right: 200px;
+    }
+    .img_back{
+        width: 200px;  
+        margin-left: 120px;
+    }
+    .dev{
+        margin-right: 30px;
+    }
+
+    .name{
+        font-size: 18px;
+        color: white;
+    }
+    .developer{
+        font-size: 50px;
+        color: white;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+    .developer1{
+        font-size: 50px;
+        color: white;
+        margin-top: -15px;
+        font-weight: bold;
+    }
+    
+    .speak{
+        width: 150px;
+        margin-top: 30px;
+        height: 25px;
+        background-image: linear-gradient( to right, #E30057, #8826D1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 40px;
+    }
+    .about{
+        font-size: 18px;
+        font-weight: bold;
+        color: #1B1C20;
+    }
 }
